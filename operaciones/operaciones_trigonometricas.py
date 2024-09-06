@@ -1,8 +1,6 @@
 ﻿# Módulo: operaciones_trigonometricas.py
 # Autor: Ángel Alcántar
 # Descripción: Módulo que contiene funciones para realizar operaciones trigonométricas básicas y avanzadas.
-# Cada función está diseñada para retornar un valor y ser robusta frente a errores.
-# Cumple con las mejores prácticas de PEP 8 y es a prueba de errores.
 
 import math
 

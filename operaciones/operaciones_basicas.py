@@ -127,3 +127,38 @@ def exponente(base, exponente, *args):
         return resultado
     except TypeError:
         return "Error: todos los valores deben ser numéricos."
+
+def porcentaje_total(parte, total):
+    """
+    Calcula el porcentaje que representa una parte de un total.
+    
+    Args:
+        parte (float): El valor de la parte.
+        total (float): El valor total.
+        
+    Returns:
+        float: El porcentaje que representa la parte sobre el total.
+    """
+    try:
+        if total == 0:
+            return "Error: el total no puede ser cero."
+        return (parte / total) * 100
+    except TypeError:
+        return "Error: los valores deben ser numéricos."
+
+
+def porcentaje_aplicado(valor, porcentaje):
+    """
+    Calcula el valor de un porcentaje aplicado a un valor específico.
+    
+    Args:
+        valor (float): El valor base.
+        porcentaje (float): El porcentaje a aplicar.
+        
+    Returns:
+        float: El resultado del porcentaje aplicado al valor.
+    """
+    try:
+        return (valor * porcentaje) / 100
+    except TypeError:
+        return "Error: los valores deben ser numéricos."
